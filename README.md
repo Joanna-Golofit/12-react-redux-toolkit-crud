@@ -1,3 +1,8 @@
+yt: https://www.youtube.com/watch?v=bml92jhF4t8&ab_channel=PedroTech
+
+configureStore
+Provider
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
