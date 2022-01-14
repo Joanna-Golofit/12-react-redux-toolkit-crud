@@ -1,7 +1,27 @@
 yt: https://www.youtube.com/watch?v=bml92jhF4t8&ab_channel=PedroTech
 
+
+index.js:
 configureStore
 Provider
+
+reducer:
+createSlice
+export const userSlice = createSlice({
+  name: "users",
+  initialState: {
+    value: usersData,
+  },
+  reducers: {
+    addUser: (state, action) => {},
+  },
+});
+
+tam, gdzie trzeba danych:
+useSelector
+const user = useSelector(state => state.user.value)
+
+
 
 # Getting Started with Create React App
 
