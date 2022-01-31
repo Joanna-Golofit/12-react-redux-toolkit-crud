@@ -47,7 +47,8 @@ function App() {
               className="text"
               onChange={(e) => setNewUsername(e.target.value)}
             />
-            <button onClick={() => dispatch(updateUsername({ id: user.id, username: newUsername }))}>Change Username</button>
+            <button onClick={() => { dispatch(updateUsername({ id: user.id, username: newUsername })) }}>
+              Update Username</button>
             <button onClick={() => dispatch(deleteUser({ id: user.id }))}>
               Delete
             </button>
